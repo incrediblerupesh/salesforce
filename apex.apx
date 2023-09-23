@@ -1,0 +1,6 @@
+
+list<Account>listOfAccounts = [select id, name from account limit 100];
+// iteration over the list of accounts
+for(Account acc : listOfAccounts){
+	//your logic
+}
